@@ -111,7 +111,7 @@ int main() {
 
    handle_aVertex = glGetAttribLocation(shader_program, "aVertex");
    handle_aTexel = glGetAttribLocation(shader_program, "aTexel");
-   handle_uTexmap = glGetAttribLocation(shader_program, "uTexmap");
+   handle_uTexmap = glGetUniformLocation(shader_program, "uTexmap");
 
    LoadTexture();
 
